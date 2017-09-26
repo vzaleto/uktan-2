@@ -96,7 +96,8 @@ a.navbar-brand img {
 	font-weight:300;
 	font-style: italic;
 	text-align: center;
-	margin:49px  0 0 0;
+	max-width: 500px;
+	margin: 50px auto;
 }
 
 .second-menu{
@@ -112,8 +113,17 @@ ul.second-menu li a{
 }
 .nav-gallery {
     margin: 0 auto;
-    max-width: 553px;
     padding-top: 49px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	-o-justify-content: center;
+	justify-content: center;
 }
 .nav-gallery .navbar-nav .active>a {
    border:1px solid #e3dcd7;
@@ -121,8 +131,9 @@ ul.second-menu li a{
 }
 .inner-gallery{
 	position: relative;
+	padding-top: 15px;
 }
-.inner-gallery h3{
+.new-prod_title {
 	font-family: "Open Sans";
 	font-weight: 300;
 	font-size: 36px;
